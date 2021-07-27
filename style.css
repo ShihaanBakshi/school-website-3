@@ -1,0 +1,97 @@
+
+body {
+    background-color: skyblue;
+    color: white;
+}
+
+#marqueeStyle {
+    background-color: greenyellow;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-decoration: none;
+}
+
+#h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+h2 {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 20px #fff, 0 0 30px dodgerblue, 0 0 40px dodgerblue, 0 0 50px dodgerblue, 0 0 60px dodgerblue, 0 0 70px dodgerblue, 0 0 80px dodgerblue;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkblue, 0 0 40px darkblue, 0 0 50px darkblue, 0 0 60px darkblue, 0 0 70px darkblue;
+    }
+}
+
+
+#Contact {
+    text-align: center;
+}
+
+#vision {
+    color: white;
+    font-size: 14.5px;
+    text-align: left;
+    line-height: 30px;
+}
+
+hr {
+    color: white;
+}
+
+
+i {
+    color: white;
+}
+
+#logo {
+    margin-top: -10px;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 13.5px;
+    margin-left: 10px;
+}
+
+#myCarousel {
+    width: 50%;
+}
+
+#link {
+    color: white;
+
+}
+
+#link:hover {
+    color: RGBA(255, 248, 255, 0.62);
+}
+
